@@ -1,0 +1,10 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "fyi.entry/entry",
+  "title": "Entry",
+  "description": "Read your Entry profile and drafts, write drafts and request publication. You approve changes.",
+  "version": "1.0.0",
+  "websiteUrl": "https://entry.fyi/developers",
+  "repository": { "url": "https://github.com/entry-fyi/mcp", "source": "github" },
+  "remotes": [{ "type": "streamable-http", "url": "https://entry.fyi/mcp" }]
+}
