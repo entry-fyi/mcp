@@ -1,0 +1,21 @@
+{
+  "name": "entry",
+  "version": "1.0.0",
+  "description": "Connect to Entry, your living identity page. Read profiles and drafts, write and edit drafts, and propose changes. You approve everything.",
+  "author": {
+    "name": "Entry",
+    "email": "hello@entry.fyi"
+  },
+  "homepage": "https://entry.fyi",
+  "repository": "https://github.com/entry-fyi/mcp",
+  "license": "MIT",
+  "keywords": [
+    "entry",
+    "profile",
+    "identity",
+    "writing",
+    "drafts",
+    "publishing",
+    "personal-website"
+  ]
+}

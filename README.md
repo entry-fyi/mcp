@@ -1,4 +1,4 @@
-# Entry MCP server
+# Entry MCP Server
 
 Connect your AI assistant to [Entry](https://entry.fyi), your personal page and your writing. The assistant can read your profile and drafts, write and edit drafts, propose profile changes and ask you to publish. **You approve every public change in Entry.**
 
@@ -7,6 +7,40 @@ https://entry.fyi/mcp
 ```
 
 A remote MCP server: Streamable HTTP, signed in with OAuth. There's nothing to install or run, and no API key. When your client connects, Entry asks you to sign in and choose which of your Entries to share and what the assistant may do.
+
+## Quick Start
+
+### Cursor
+
+[**Add to Cursor**](https://cursor.com/en/install-mcp?name=entry&config=eyJ1cmwiOiJodHRwczovL2VudHJ5LmZ5aS9tY3AifQ%3D%3D)
+
+Click the link above to add Entry to Cursor. When Cursor asks, sign in to Entry and choose which Entries to share. The Entry MCP tools will appear in your agent chat.
+
+**What you can do:**
+
+- "Show my Entry profile and drafts"
+- "Create a draft post about my recent project"
+- "Update my headline to reflect my new role"
+- "Send this draft for publication"
+
+**How it works:**
+
+Entry is draft-and-approve. Your Cursor agent can read and propose changes, but nothing goes live until you approve it in Entry. Profile changes and publication requests appear under Settings → Integrations in Entry.
+
+### Grok Bot
+
+Ask your Grok Bot agent to connect to Entry:
+
+"Add Entry as an MCP server. The URL is https://entry.fyi/mcp"
+
+When the OAuth card appears, sign in and choose your Entries. Then ask Grok Bot to help with your profile or writing.
+
+**Example prompts:**
+
+- "Read my Entry profile"
+- "Draft a post about the feature we just shipped"
+- "Propose updating my bio"
+- "Check the status of my publication request"
 
 - [Connect your assistant](#connect-your-assistant)
 - [What the assistant can do](#what-the-assistant-can-do)
