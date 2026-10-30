@@ -9,6 +9,7 @@
   "homepage": "https://entry.fyi",
   "repository": "https://github.com/entry-fyi/mcp",
   "license": "MIT",
+  "logo": "assets/logo.png",
   "keywords": [
     "entry",
     "profile",
