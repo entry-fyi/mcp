@@ -214,6 +214,7 @@ Try asking:
 
 - "Show my unfinished Entry drafts."
 - "Create an article about my recent work."
+- "Write a post that shares the prompt I use for code reviews."
 - "Update the introduction of this draft."
 - "Prepare this article for publication."
 - "Change my headline to …"
@@ -222,6 +223,7 @@ It can:
 
 - Read your Entry as you see it, including fields you haven't published, and your drafts and posts.
 - Start a draft from your idea and edit it with you. Drafts are private until you publish them.
+- Write in Entry's Markdown: headings, lists, quotes, links, notes, code blocks, and prompt blocks (a block opened with ```` ```prompt ````) that your readers can copy with one click.
 - Propose changes to your profile: name, headline, bio, location, links, availability.
 - Ask you to publish a draft when it's ready.
 

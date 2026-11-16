@@ -24,14 +24,22 @@ If needed, use `get_entry_profile` to understand the owner's work and voice. Use
 
 ### Step 2: Create the draft
 
-Use `create_draft` with:
+Use `create_draft` with the `entryId` from `list_entries` and:
 
 - `title` - Clear, specific title
-- `body` - The full post content in markdown
-- `state` - Always `"working"` for a new draft
-- Optionally `tags` - Relevant topic tags
+- `body` - The full post content, in Entry's Markdown (below)
+- Optionally `dek` - One line under the title
+- Optionally `topics` - Up to 3 topics
 
-Keep it concise and authentic. Match the owner's voice from their profile and past posts. Use markdown for formatting.
+A new draft is always private (`working`); there is no state to set. Keep it concise and authentic, and match the owner's voice from their profile and past posts.
+
+The body is Entry's own Markdown: `## ` headings (one level), `- ` and `1. ` lists, `> ` quotes, `*italic*`, `**bold**`, `` `code` ``, `[links](https://…)`, `[^1]` notes and fenced code blocks. Anything else (images, tables, `###`) shows as plain text. When the win involved a prompt the owner wants to share, put it in a **prompt block**, a fenced block whose language is `prompt`; Entry shows it labelled, wrapped and with a Copy button for readers:
+
+````markdown
+```prompt
+Summarise this week's customer calls and list the three requests that came up most.
+```
+````
 
 ### Step 3: Refine if needed
 
@@ -47,7 +55,7 @@ When the draft is ready, use `request_publication` with the draft ID and its cur
 
 ## Remember
 
-- New drafts start as `state: "working"` (private)
+- New drafts are always private until the owner publishes them
 - Read the draft with `get_draft` before updating it
 - Always pass the current `revision` when calling `update_draft`
 - Use `request_publication` to ask the owner to publish
